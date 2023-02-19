@@ -42,7 +42,7 @@ public class HouseRunner {
         House house = new House(1, new Floor[]{floor1, floor2, floor3});
 
         printAllInformation(house);
-        }
+    }
 
     private static void printAllInformation(House house) {
         house.print();
